@@ -9,15 +9,65 @@
     <link rel="stylesheet" href="./static/style.css" />
   </head>
   <body>
+    
+    <!-- welcome start -->
     <div class="welcome">
       <div class="welcome__container">
-        <img src="" alt="" class="welcome__bg-image" />
-        <p class="welcome__date">с 22 ноября по 12 января</p>
-        <p class="welcome__title">ПРАЗДНИЧНЫЙ РОЗЫГРЫШ</p>
-        <p class="welcome__subtitle">Ко Дню рождения Hair System – системы по уходу за волосами</p>
-        <button class="welcome__btn">Хочу подарки!</button>
+        <picture class="welcome__bg-picture">
+          <source srcset="./images/welcome__bg-image.jpg" media="(min-width: 576px)" />
+          <img class="welcome__bg-image" src="./images/welcome__bg-image-mobile.png" alt="ПРАЗДНИЧНЫЙ РОЗЫГРЫШ" />
+        </picture>
+
+        <div class="welcome__circle-wrapper">
+          <img src="./images/welcome__circle.png" alt="ПРАЗДНИЧНЫЙ РОЗЫГРЫШ" class="welcome__circle-image" />
+          <p class="welcome__circle-date">
+            <span class="welcome__circle-border"></span>
+
+            <span class="welcome__circle-inner">с 22 ноября по 12 января</span>
+
+            <span class="welcome__circle-border"></span>
+          </p>
+        </div>
+
+        <div class="welcome__content">
+          <p class="title1 welcome__title">ПРАЗДНИЧНЫЙ РОЗЫГРЫШ</p>
+          <p class="text1 welcome__subtitle">Ко Дню рождения Hair System – системы по уходу за волосами</p>
+          <button class="btn welcome__btn">Хочу подарки!</button>
+        </div>
       </div>
     </div>
+    <!-- welcome end -->
+
+    <!-- how start -->
+    <div class="how">
+      <div class="how__container">
+        <p class="title2 how__title">КАК ПРИНЯТЬ УЧАСТИЕ</p>
+
+        <div class="how__items">
+          <div class="how__item">
+            <p class="how__item-number">01</p>
+            <img src="./images/how__item-1.png" alt="КАК ПРИНЯТЬ УЧАСТИЕ" class="how__item-img how__item-img_1" />
+            <p class="how__item-description">Купите любую продукцию <a class="how__item-description-link" href="#">Hair System</a></p>
+            <p class="how__item-bottom">c 22 ноября по 12 января</p>
+          </div>
+
+          <div class="how__item">
+            <p class="how__item-number">02</p>
+            <img src="./images/how__item-2.png" alt="КАК ПРИНЯТЬ УЧАСТИЕ" class="how__item-img how__item-img_2" />
+            <p class="how__item-description">Зарегистрируйте номер заказа и подпишитеcь на наш аккаунт</p>
+            <a href="#" class="how__item-bottom">@aravia_professional</a>
+          </div>
+
+          <div class="how__item">
+            <p class="how__item-number">03</p>
+            <img src="./images/how__item-3.png" alt="КАК ПРИНЯТЬ УЧАСТИЕ" class="how__item-img how__item-img_3" />
+            <p class="how__item-description">Ожидайте розыгрыша</p>
+            <a href="#" class="how__item-bottom">в Stories</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- how end -->
 
     <div class="way">
       <div class="way__container">
