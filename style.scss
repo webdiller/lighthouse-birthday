@@ -749,16 +749,16 @@ html {
   &__bg-image {
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     width: 100%;
     max-width: 946px;
     height: 100%;
     object-fit: cover;
     @media (max-width: 1600px) {
-      right: -10%;
+      left: -10%;
     }
     @media (max-width: 1300px) {
-      right: -20%;
+      left: -20%;
     }
     @media (max-width: 1200px) {
       display: none;
