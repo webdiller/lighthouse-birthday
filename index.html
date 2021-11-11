@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Конкурс для массажистов и эстетистов по телу</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./fonts.css" />
     <link rel="stylesheet" href="./static/style.css" />
   </head>
   <body>
-    
     <!-- welcome start -->
     <div class="welcome">
       <div class="welcome__container">
@@ -47,15 +47,20 @@
           <div class="how__item how__item">
             <div class="how__item-number-with-image">
               <p class="how__item-number">01</p>
-              <img src="./images/how__item-1.png" alt="КАК ПРИНЯТЬ УЧАСТИЕ" class="how__item-img how__item-img_1" /></div>
-            <p class="text2 how__item-description">Купите любую продукцию <br> <a class="how__item-description-link" href="#">Hair System</a></p>
+              <img src="./images/how__item-1.png" alt="КАК ПРИНЯТЬ УЧАСТИЕ" class="how__item-img how__item-img_1" />
+            </div>
+            <p class="text2 how__item-description">
+              Купите любую продукцию <br />
+              <a class="how__item-description-link" href="#">Hair System</a>
+            </p>
             <p class="how__item-bottom">c 22 ноября по 12 января</p>
           </div>
 
           <div class="how__item">
             <div class="how__item-number-with-image">
               <p class="how__item-number">02</p>
-              <img src="./images/how__item-2.png" alt="КАК ПРИНЯТЬ УЧАСТИЕ" class="how__item-img how__item-img_2" /></div>
+              <img src="./images/how__item-2.png" alt="КАК ПРИНЯТЬ УЧАСТИЕ" class="how__item-img how__item-img_2" />
+            </div>
             <p class="text2 how__item-description">Зарегистрируйте номер заказа и подпишитеcь на наш аккаунт</p>
             <a href="#" class="how__item-bottom">@aravia_professional</a>
           </div>
@@ -63,7 +68,8 @@
           <div class="how__item">
             <div class="how__item-number-with-image">
               <p class="how__item-number">03</p>
-              <img src="./images/how__item-3.png" alt="КАК ПРИНЯТЬ УЧАСТИЕ" class="how__item-img how__item-img_3" /></div>
+              <img src="./images/how__item-3.png" alt="КАК ПРИНЯТЬ УЧАСТИЕ" class="how__item-img how__item-img_3" />
+            </div>
             <p class="text2 how__item-description">Ожидайте розыгрыша</p>
             <a href="#" class="how__item-bottom">в Stories</a>
           </div>
@@ -75,7 +81,7 @@
     <!-- action start -->
     <div class="action">
       <div class="action__container">
-        <p class="text2 action__text">конца акции: </p>
+        <p class="text2 action__text">до конца акции:</p>
 
         <div class="action__items">
           <div class="action__item">
@@ -93,358 +99,309 @@
         </div>
 
         <form class="action__form">
-          <input placeholder="Номер вашего заказа" type="text" class="action__input">
-          <input placeholder="Ваш аккаунт инстаграм" type="text" class="action__input">
+          <input placeholder="Номер вашего заказа" type="text" class="action__input" />
+          <input placeholder="Ваш аккаунт инстаграм" type="text" class="action__input" />
           <button class="btn action__btn">Зарегистрировать</button>
         </form>
 
         <a href="#" class="action__link">Нужна помощь?</a>
-
       </div>
     </div>
     <!-- action end -->
 
-    <div class="way">
-      <div class="way__container">
-        <p class="title way__title">Путь к фигуре мечты с ARAVIA Organic</p>
-        <div class="way__content">
-          <p class="way__text">Ваши клиенты уже готовы к летнему сезону и гордятся результатами после курса массажа или обертываний?</p>
-          <p class="way__text">Тогда поделитесь с нами своими достижениями!</p>
-          <p class="way__text">Участвуйте в конкурсе ARAVIA Organic и покажите, на что вы способны.</p>
+    <!-- dates start -->
+    <div class="dates">
+      <div class="dates__container">
+        <img src="./images/dates__bg-image.png" alt="ДАТЫ РОЗЫГРЫШЕЙ" class="dates__bg-image" />
+
+        <div class="dates__content">
+          <p class="title2 dates__title">ДАТЫ РОЗЫГРЫШЕЙ</p>
+          <p class="text2 dates__text">Призы будут разыграны в 3 этапа:</p>
+          <div class="dates__items">
+            <div class="dates__item dates__item_1">
+              <img src="./images/dates__item-1.png" alt="5 подарочных сертификатов" class="dates__item-img dates__item-img_1" />
+              <div class="dates__item-texts">
+                <p class="dates__item-number">6 декабря</p>
+                <p class="text2 dates__item-description">5 подарочных сертификатов</p>
+              </div>
+            </div>
+
+            <div class="dates__item dates__item_2">
+              <img src="./images/dates__item-2.png" alt="Расческа-брашинг Dyson" class="dates__item-img dates__item-img_2" />
+              <div class="dates__item-texts">
+                <p class="dates__item-number">20 декабря</p>
+                <p class="text2 dates__item-description">Расческа-брашинг Dyson</p>
+              </div>
+            </div>
+
+            <div class="dates__item dates__item_3">
+              <img src="./images/dates__item-3.png" alt="Фен Dyson" class="dates__item-img dates__item-img_3" />
+              <div class="dates__item-texts">
+                <p class="dates__item-number">12 января</p>
+                <p class="text2 dates__item-description">Фен Dyson</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <img id="obj5" src="./images/way-object_1.png" alt="Путь к фигуре мечты с ARAVIA Organic" class="leaf way__obj1" />
-      <img id="obj6" src="./images/way-object_2.png" alt="Путь к фигуре мечты с ARAVIA Organic" class="leaf way__obj2" />
-      <img src="./images/way-bg.jpg" alt="Путь к фигуре мечты с ARAVIA Organic" class="way__bg" />
     </div>
+    <!-- dates end -->
 
-    <div class="how">
-      <div class="how__container">
-        <p class="title how__title">Как принять участие?</p>
-        <ul class="how__list">
-          <li class="how__item">
-            <span class="how__item-count">01</span>
-            <div class="how__item-img-wrapper">
-              <img src="./images/icon-relax.png" alt="Как принять участие?" class="how__item-img" />
-            </div>
-            <p class="how__item-description">Проведите клиенту <b>курс массажа</b> или <b>обертываний</b> на косметике ARAVIA Organic</p>
-          </li>
-          <li class="how__item">
-            <span class="how__item-count">02</span>
-            <div class="how__item-img-wrapper">
-              <img src="./images/icon-slim.png" alt="Как принять участие?" class="how__item-img" />
-            </div>
-            <p class="how__item-description">Сделайте <b>фото</b> и <b>замеры фигур клиентов</b> до и после курса. Внесите данные <b>в карту клиента</b></p>
-          </li>
-          <li class="how__item">
-            <span class="how__item-count">03</span>
-            <div class="how__item-img-wrapper">
-              <img src="./images/icon-email.png" alt="Как принять участие?" class="how__item-img" />
-            </div>
-            <p class="how__item-description">Отправьте фотографии и карту клиента на<a href="mailto:pr_prof@aravia-prof.ru."> pr_prof@aravia-prof.ru</a></p>
-          </li>
-          <li class="how__item">
-            <span class="how__item-count">04</span>
-            <div class="how__item-img-wrapper">
-              <img src="./images/icon-gift-box.png" alt="Как принять участие?" class="how__item-img" />
-            </div>
-            <p class="how__item-description">
-              Участвуйте в розыгрыше<b> призов и сертификатов</b> на <a href="aravia.ru."><u>aravia.ru</u></a>
-            </p>
-          </li>
-        </ul>
-      </div>
-      <img src="./images/how-bg.png" alt="Как принять участие?" class="how__bg" />
-    </div>
-
-    <div class="measurements">
-      <div class="measurements__container">
-        <p class="title measurements__title">Как проводить замеры?</p>
-        <div class="measurements__content">
-          <p class="measurements__item">Скачайте <a href="#!">индивидуальную карту клиента</a></p>
-          <p class="measurements__item">До курса процедур сантиметровой лентой замерьте параметры клиента. Замерьте все области, где будете проводить массаж или обертывания: руки, бедра, талия (согласно индивидуальной карте клиента). Зафиксируйте данные в бланке</p>
-          <p class="measurements__item">Замерьте те же области после курса процедур, указав количество процедур и периодичность проведения. Зафиксируйте результаты в бланке</p>
-          <p class="measurements__item">Подсчитайте общую потерю объемов в сантиметрах (разница между суммарными замерами до и после проведения процедур). Зафиксируйте результаты в бланке</p>
-        </div>
-      </div>
-      <img id="obj7" src="./images/measurements-obj_1.png" alt="Как проводить замеры?" class="leaf measurements__obj1" />
-      <img id="obj8" src="./images/measurements-obj_2.png" alt="Как проводить замеры?" class="leaf measurements__obj2" />
-      <img src="./images/measurements-bg1.jpg" alt="Как проводить замеры?" class="measurements__bg1" />
-      <img id="measurements3" src="./images/measurements-bg2.png" alt="Как проводить замеры?" class="measurements__bg2" />
-      <span class="circle measurements__circle1"></span>
-      <span class="circle measurements__circle2"></span>
-    </div>
-
-    <div class="criteria">
-      <div class="criteria__container">
-        <p class="title criteria__title">Критерии и оценки победителей</p>
-        <p class="criteria__description">Победителями станут мастера, работы которых эксперты компании «Аравия» признают лучшими по двум критериям:</p>
-        <ul class="criteria__list">
-          <li class="criteria__item">
-            <div class="criteria__item-img-wrapper">
-              <img src="./images/icon-waist_1.png" alt="Визуальные изменения фигуры и качества кожи клиентов – по фотографиям до и после;" class="criteria__item-img" />
-            </div>
-            <div class="criteria__item-content">
-              <span class="criteria__item-number">01</span>
-              <p class="criteria__item-text">Визуальные изменения фигуры и качества кожи клиентов – по фотографиям до и после</p>
-            </div>
-          </li>
-          <li class="criteria__item">
-            <div class="criteria__item-img-wrapper">
-              <img src="./images/icon-waist_2.png" alt="Максимальное количество потерянных сантиметров – по замерам объемов клиентов до и после процедур." class="criteria__item-img" />
-            </div>
-            <div class="criteria__item-content">
-              <span class="criteria__item-number">02</span>
-              <p class="criteria__item-text">Максимальное количество потерянных сантиметров – по замерам объемов клиентов до и после процедур</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <img id="obj9" src="./images/criteria-object_1.png" alt="Критериии оценки победителей" class="leaf criteria__obj1" />
-      <img src="./images/criteria-bg.png" alt="Критериии оценки победителей" class="criteria__bg" />
-    </div>
-
+    <!-- gifts start -->
     <div class="gifts">
-      <span class="circle gifts__circle"></span>
       <div class="gifts__container">
-        <p class="title gifts__title">Призы</p>
-
-        <div class="gifts__list">
-          <div class="gifts__item gifts__item_one">
-            <div class="gifts__item-img-wrapper gifts__item-img-wrapper_one">
-              <img src="./images/gift1.png" alt="Призы" class="gifts__item-img" />
-              <img id="obj10" src="./images/gift-object_1.png" alt="Призы" class="leaf gifts__item-obj1" />
+        <div class="title2 gifts__title">Призы</div>
+        <div class="gifts__items">
+          <div class="gifts__item gifts__item_1">
+            <div class="gifts__item-images gifts__item-images_1">
+              <img src="./images/gifts__item-img-1.png" alt="Призы" class="gifts__item-img gifts__item-img_1" />
+              <img src="./images/gifts__item-bg-1.png" alt="Призы" class="gifts__item-bg" />
             </div>
-            <div class="gifts__item-content gifts__item-content_one">
-              <p class="gifts__item-title gifts__item-title_accent">Главный приз</p>
-              <p class="gifts__item-subtitle">Часы <b>Apple watch SE</b></p>
-              <p class="gifts__item-description">
-                Apple Watch SE — часы, с которыми вы оцените каждую секунду. Большой дисплей Retina, на котором поместится всё, что нужно. Продвинутые датчики для отслеживания любой физической активности. Полезные функции, которые помогают следить за показателями здоровья и заботятся о вашей
-                безопасности.
+            <div class="gifts__item-content gifts__item-content_1">
+              <p class="title1 gifts__item-title">5 сертификатов</p>
+              <p class="text2 gifts__item-subtitle">на 5 средств для волос</p>
+              <p class="text3 gifts__item-description">
+                Подарите своим волосам роскошный объем, блеск, густоту и здоровую силу! Получите бесплатно 5 любых полноразмерных средств системы Hair System для ежедневного ухода за волосами. Очищающий скраб для кожи головы, увлажняющий шампунь для сухих и ломких волос, флюид против секущихся
+                кончиков... Выбирайте!
               </p>
             </div>
           </div>
 
-          <div class="gifts__item gifts__item_two">
-            <div class="gifts__item-img-wrapper gifts__item-img-wrapper_two">
-              <img src="./images/gift2.png" alt="Призы" class="gifts__item-img" />
-              <img id="obj11" src="./images/gift-object_2.png" alt="Призы" class="leaf gifts__item-obj2" />
+          <div class="gifts__item gifts__item_2">
+            <div class="gifts__item-images gifts__item-images_2">
+              <img src="./images/gifts__item-img-2.png" alt="Призы" class="gifts__item-img gifts__item-img_2" />
+              <img src="./images/gifts__item-bg-1.png" alt="Призы" class="gifts__item-bg" />
             </div>
-            <div class="gifts__item-content gifts__item-content_two">
-              <p class="gifts__item-title">Умная колонка Яндекс.Станция</p>
-              <p class="gifts__item-description">Яндекс.Станция — умная колонка с голосовым помощником Алисой. Она рекомендует и включает музыку в хорошем качестве, подключается к телевизору и показывает кино, отвечает на вопросы и ставит напоминания, рассказывает сказки и играет в игры.</p>
+            <div class="gifts__item-content gifts__item-content_2">
+              <p class="title1 gifts__item-title">Брашинг Dyson</p>
+              <p class="text3 gifts__item-description">
+                Придавайте объем и форму во время укладки c помощью цилиндрической расчески-брашинга диаметром 35 мм. Брашинг идеально подходит для коротких волос, волос средней длины и челки. Благодаря круглым щетинкам брашинг не травмирует кожу головы, а вентилируемый корпус предотвращает перегрев
+                волос.
+              </p>
             </div>
           </div>
 
-          <div class="gifts__item gifts__item_three">
-            <div class="gifts__item-img-wrapper gifts__item-img-wrapper_three">
-              <img src="./images/gift3.png" alt="Призы" class="gifts__item-img" />
-              <img id="obj12" src="./images/gift-object_3.png" alt="Призы" class="leaf gifts__item-obj3" />
+          <div class="gifts__item gifts__item_3">
+            <div class="gifts__item-images gifts__item-images_3">
+              <img src="./images/gifts__item-img-3.png" alt="Призы" class="gifts__item-img gifts__item-img_3" />
+              <img src="./images/gifts__item-bg-1.png" alt="Призы" class="gifts__item-bg" />
             </div>
-            <div class="gifts__item-content gifts__item-content_three">
-              <p class="gifts__item-title">Подарочные сертификаты</p>
-              <p class="gifts__item-subtitle">на 3 000 рублей</p>
-              <p class="gifts__item-description">Получите бесплатно средства ARAVIA Organic. Что выберете вы: легкий крем для тела, обертывание или ароматный сухой скраб?</p>
-              <p class="gifts__item-description">Трое счастливчиков получат подарочные сертификаты на 3 000 рублей.</p>
+            <div class="gifts__item-content gifts__item-content_3">
+              <p class="title1 gifts__item-title">Фен Dyson Supersonic</p>
+              <p class="text3 gifts__item-description">
+                Легендарный инструмент, который используют в работе парикмахеры-стилисты топ-салонов красоты по всему миру! Фен быстро высушивает волосы без экстремальных температур, используя 4 уровня нагрева. Высушивает волосы с помощью равномерного и контролируемого воздуха, придавая волосам
+                естественную гладкость. Фен практически невесомый, его удобно держать в руке.
+              </p>
             </div>
           </div>
         </div>
-
-        <button class="btn btn_lg gifts__btn">Участвовать</button>
       </div>
     </div>
+    <!-- gifts end -->
 
+    <!-- subscribe start -->
+    <div class="subscribe">
+      <div class="subscribe__container">
+        <p class="title2 subscribe__title">ПОДПИСЫВАЙТЕСЬ</p>
+        <p class="subscribe__subtitle text2">
+          на ARAVIA Professional <br />
+          и следите за розыгрышем в Instagram
+        </p>
+
+        <div class="subscribe__swiper">
+          <div id="subscribeSwiper" class="swiper">
+
+            <div class="swiper-wrapper">
+              <a href="#" class="swiper-slide subscribe__slide">
+                <picture class="subscribe__slide-picture">
+                  <source srcset="./images/subscribe__slide-1.webp"/>
+                  <img class="subscribe__slide-image" src="./images/subscribe__slide-1.png" alt="ПОДПИСЫВАЙТЕСЬ" />
+                </picture>
+              </a>
+              <a href="#" class="swiper-slide subscribe__slide">
+                <picture class="subscribe__slide-picture">
+                  <source srcset="./images/subscribe__slide-2.webp"/>
+                  <img class="subscribe__slide-image" src="./images/subscribe__slide-2.png" alt="ПОДПИСЫВАЙТЕСЬ" />
+                </picture>
+              </a>
+              <a href="#" class="swiper-slide subscribe__slide">
+                <picture class="subscribe__slide-picture">
+                  <source srcset="./images/subscribe__slide-3.webp"/>
+                  <img class="subscribe__slide-image" src="./images/subscribe__slide-3.png" alt="ПОДПИСЫВАЙТЕСЬ" />
+                </picture>
+              </a>
+              <a href="#" class="swiper-slide subscribe__slide">
+                <picture class="subscribe__slide-picture">
+                  <source srcset="./images/subscribe__slide-4.webp"/>
+                  <img class="subscribe__slide-image" src="./images/subscribe__slide-4.png" alt="ПОДПИСЫВАЙТЕСЬ" />
+                </picture>
+              </a>
+              <a href="#" class="swiper-slide subscribe__slide">
+                <picture class="subscribe__slide-picture">
+                  <source srcset="./images/subscribe__slide-5.webp"/>
+                  <img class="subscribe__slide-image" src="./images/subscribe__slide-5.png" alt="ПОДПИСЫВАЙТЕСЬ" />
+                </picture>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="swiper-pagination"></div>
+          
+          <div class="subscribe__navs">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+
+        <a href="#" class="text3 subscribe__bottom-link">Следуй за красотой</a>
+      </div>
+    </div>
+    <!-- subscribe end -->
+
+    <!-- faq -->
     <div class="faq">
       <div class="faq__container">
-        <p class="title faq__title">Вопрос-ответ</p>
+        <p class="title2 faq__title">Вопрос-ответ</p>
         <div id="questions" class="faq__questions">
+          <!-- 1 -->
           <div class="faq__question">
-            <p class="faq__question-title">Сколько продлится конкурс?</p>
+            <p class="faq__question-title">Как принять участие?</p>
             <div class="faq__question-answer">
-              <p>Конкурс проводится с 30 апреля по 30 июня 2021 года. Срок подведения итогов и определения победителей: с 1 по 8 июля 2021 года. Итоги конкурса огласим 9 июля 2021 года.</p>
+              <ul class="faq__list faq__list_parent">
+                <li>
+                  1. Купите два любых продукта ARAVIA Professional для ухода за волосами в интернет-магазине aravia.ru и зарегистрируйте номер заказа <a href="#">на странице акции</a>. Ваш заказ должен быть совершён в период с 00 часов 00 минут 00 секунд 15 ноября до 23 часов 59 минут 59 секунд 25
+                  декабря 2021 года (по московскому времени).
+                </li>
+                <li>2. Подпишитесь на официальный Instagram-аккаунт <a href="https://www.instagram.com/aravia_professional">@aravia_professional</a> и следите за розыгрышем. Важно: ваш аккаунт в Instagram должен быть открытым, чтобы мы могли связаться с вами в случае выигрыша.</li>
+              </ul>
             </div>
           </div>
 
+          <!-- 2 -->
           <div class="faq__question">
             <p class="faq__question-title">Кто может участвовать в конкурсе?</p>
             <div class="faq__question-answer">
-              <p>Массажисты, эстетисты по телу, которые работают на косметике ARAVIA Organic. Участники конкурса должны быть совершеннолетними.</p>
+              <p>Жители Российской Федерации и Казахстана, достигшие 18 лет.</p>
             </div>
           </div>
 
+          <!-- 3 -->
           <div class="faq__question">
-            <p class="faq__question-title">Как принять участие в конкурсе?</p>
+            <p class="faq__question-title">Могу ли я участвовать в акции, если заказываю вашу продукцию на Wildberries, Ozon, «Беру», Lamoda?</p>
             <div class="faq__question-answer">
-              <ul class="faq__list faq__list_parent">
-                <li class="faq__list-item-title">
-                  <p>1. С 30 апреля приступайте к работе:</p>
-                  <ol class="faq__list faq__list_nested">
-                    <li>✓ Выберите клиентов, составьте для них программу процедур с косметикой ARAVIA Organic.</li>
-                    <li>Вы можете взять любое количество клиентов и подобрать для них любой комплекс процедур. Например, одному клиенту вы можете назначить курс массажа, второму – курс обертываний, третьему клиенту – 2 массажа, 3 обертывания и еще 4 массажа.</li>
-                    <li>
-                      ✓ Сделайте фотографии каждого клиента ДО начала курса процедур с четырех разных позиций: вид спереди, вид сзади, вид с правого бока, вид с левого бока. У вас получится 4 фотографии. Постарайтесь сделать все фотографии в одном месте на одном и том же фоне, с одного того же
-                      расстояния.
-                    </li>
-                    <li>✓ Проведите замеры и зафиксируйте объемы клиента в <a href="#!">индивидуальной карте клиента</a>.</li>
-                    <li>
-                      ✓ Сделайте фотографию каждого клиента ПОСЛЕ последней процедуры с четырех разных позиций: вид спереди, вид сзади, вид с правого бока, вид с левого бока. У вас получится 4 фотографии. Постарайтесь сделать все фотографии в одном месте на одном и том же фоне, с одного того же
-                      расстояния. Для объективной оценки попросите клиента надеть то же белье, что и во время фотографирования до проведения процедур.
-                    </li>
-                    <li>✓ Проведите замеры и зафиксируйте объемы клиента в индивидуальной карте клиента.</li>
-                  </ol>
+              <p>Не получится. Чтобы участвовать в розыгрыше и получить приз, нужно совершить покупку в официальном интернет-магазине компании «Аравия» <a href="aravia.ru">aravia.ru</a></p>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="faq__question">
+            <p class="faq__question-title">Какие заказы участвуют в конкурсе?</p>
+            <div class="faq__question-answer">
+              <p>В конкурсе участвуют любые заказы, которые:</p>
+              <ul class="faq__list faq__list_parent faq__list_circle">
+                <li>были совершены в aravia.ru в период с 00 часов 00 минут 00 секунд 15 ноября до 23 часов 59 минут 59 секунд 25 декабря 2021 года (по московскому времени).</li>
+                <li>cодержат минимум два любых продукта ARAVIA Professional серии Hair System. При этом в вашем заказе могут быть средства ARAVIA Laboratories, ARAVIA Organic и Start Epil, но они не будут учитываться.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="faq__question">
+            <p class="faq__question-title">Где найти номер заказа?</p>
+            <div class="faq__question-answer">
+              <p>После оформления заказа вы получаете подтверждение на e-mail. Номер заказа — это цифры, которые указаны в письме после слова «заказ». Пример: Заказ #64001 от 2020-11-01.</p>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="faq__question">
+            <p class="faq__question-title">Как будет проходить розыгрыш?</p>
+            <div class="faq__question-answer">
+              <p>Розыгрыш пройдёт в официальном Instagram-аккаунте <a href="https://www.instagram.com/aravia_professional">@aravia_professional</a>. Он будет проводиться в три этапа:</p>
+              <ul class="faq__list faq__list_parent faq__list_circle">
+                <li>Первый розыгрыш — 29 ноября. Приз — электронный сертификат на продукцию ARAVIA Professional. Получив сертификат, вы можете выбрать пять любых средств ARAVIA Professional, кроме наборов и аксессуаров.</li>
+                <li>Второй розыгрыш — 13 декабря. Приз — расческа-брашинг Dyson фиолетового цвета.</li>
+                <li>Третий розыгрыш — 27 декабря. Приз — Фен Dyson Supersonic™ для волос (пурпурный)</li>
+              </ul>
+              <p>Подписывайтесь и следите за новостями!</p>
+            </div>
+          </div>
+
+          <!-- 7 -->
+          <div class="faq__question">
+            <p class="faq__question-title">Каким образом выберут победителя?</p>
+            <div class="faq__question-answer">
+              <p>Победитель будет выбран с помощью независимого сервиса — генератора случайных чисел Lizaonair. Количество чисел = количество заказов, зарегистрированных <a href="#">на странице акции</a>. При этом пользователи должны выполнить все условия акции.</p>
+              <p>Номера, которые выпадают в рандомайзере, переходят в список победителей и исключаются из последующих конкурсов. Регистрация заказов активна до 23 часов 59 минут 59 секунд 25 декабря 2021 года*.</p>
+              <ul class="faq__list faq__list_parent faq__list_circle">
+                <li>В первом розыгрыше участвуют заказы, зарегистрированные с 24 ноября дата по 10 декабря включительно*. 11 декабря мы проведём розыгрыш в Instagram и опубликуем список победителей.</li>
+                <li>
+                  Во втором розыгрыше участвуют номера, не выпавшие в рандомайзере в первом розыгрыше, и новые номера заказов. Таким образом, в нём участвуют заказы, зарегистрированные с 24 ноября по 17 декабря включительно*. 18 декабря мы проведём розыгрыш в Instagram и опубликуем список
+                  победителей.
                 </li>
-
-                <li class="faq__list-item-title">
-                  <p>2. Напишите письмо на <a href="#!">pr_prof@aravia-prof.ru</a>. В письме должны быть:</p>
-                  <ol class="faq__list faq__list_nested">
-                    <li>- 4 фотографии клиента до и 4 фотографии клиента после курса процедур;</li>
-                    <li>- заполненная индивидуальная карта для каждого клиента;</li>
-                    <li>- фотография продуктов ARAVIA Organic, которые использовались в курсе процедур;</li>
-                    <li>- ваши ФИО, номер телефона, e-mail.</li>
-                    <li>Если вы вели несколько клиентов по разным направлениям, приложите фото и данные каждого клиента.</li>
-                  </ol>
+                <li>
+                  В третьем розыгрыше участвуют номера, не выпавшие в рандомайзере в первом и во втором розыгрыше, а также новые номера заказов. Таким образом, в нём участвуют заказы, зарегистрированные с 24 ноября по 24 декабря включительно*. 25 декабря мы проведём розыгрыш в Instagram и опубликуем
+                  список победителей.
                 </li>
-
-                <li class="faq__list-item-title"><p>3. Ожидайте 9 июля и следите за нашими социальными сетями. В этот день мы огласим результаты.</p></li>
               </ul>
+              <p>*по московскому времени</p>
             </div>
           </div>
 
+          <!-- 8 -->
           <div class="faq__question">
-            <p class="faq__question-title">Какими должны быть фотографии для участия в конкурсе?</p>
-            <div class="faq__question-answer faq__question-answer_left">
+            <p class="faq__question-title">Как узнать свой номер в розыгрыше?</p>
+            <div class="faq__question-answer">
               <p>
-                На фотографиях должны быть заметны результаты вашей работы. По возможности обеспечьте хорошее равномерное освещение. Постарайтесь сделать все фотографии в одном месте на одном и том же фоне, с одного того же расстояния. Для объективной оценки попросите клиента надеть для всех
-                фотографий одно и то же белье. При необходимости заретушируйте лицо клиента или сделайте снимок так, чтобы эта область не попала в кадр.
-              </p>
-              <p>Требования к фотографиям: формат – jpeg или gif, размер – не менее 1000 пикселей по ширине.</p>
-            </div>
-          </div>
-
-          <div class="faq__question">
-            <p class="faq__question-title">Можно ли использовать графические редакторы?</p>
-            <div class="faq__question-answer faq__question-answer_left">
-              <p>Графические редакторы и любые эффекты или фильтры использовать нельзя. Исключение –размытие или намеренное закрытие зоны лица графическими объектами, чтобы затруднить идентификацию клиента.</p>
-              <p>Все фотографии будут проверять специалисты. Снимки, сделанные с нарушением правил, не будут допущены к участию в конкурсе.</p>
-            </div>
-          </div>
-
-          <div class="faq__question">
-            <p class="faq__question-title">Можно ли использовать продукцию других брендов?</p>
-            <div class="faq__question-answer faq__question-answer_left">
-              <p>Нет, использование продукции других брендов запрещено. В ходе проведения курса массажа или обертываний должна быть использована только продукция бренда ARAVIA Organic.</p>
-            </div>
-          </div>
-
-          <div class="faq__question">
-            <p class="faq__question-title">Какие призы я могу получить?</p>
-            <div class="faq__question-answer faq__question-answer_left">
-              <p>Всего будет 5 победителей, которые смогут получить следующие призы:</p>
-              <ul class="faq__list faq__list_parent faq__list_circle">
-                <li>1 место – Apple watch SE</li>
-                <li>2 место – умная колонка Яндекс.Станция</li>
-                <li>3 – 5 места – сертификаты на 3 000 руб. на покупку товаров ARAVIA Organic</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="faq__question">
-            <p class="faq__question-title">Сколько будет победителей?</p>
-            <div class="faq__question-answer faq__question-answer_left">
-              <p>Всего будет 5 победителей.</p>
-            </div>
-          </div>
-
-          <div class="faq__question">
-            <p class="faq__question-title">Сколько всего призов я могу выиграть?</p>
-            <div class="faq__question-answer faq__question-answer_left">
-              <p>Вы можете получить не более:</p>
-              <ul class="faq__list faq__list_parent faq__list_circle">
-                <li>1 место – Apple watch SE</li>
-                <li>1 умной колонки Яндекс.Станция;</li>
-                <li>3 сертификатов на 3 000 руб. на покупку товаров ARAVIA Organic</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="faq__question">
-            <p class="faq__question-title">Кто будет выбирать победителей?</p>
-            <div class="faq__question-answer faq__question-answer_left">
-              <p>Комиссия из экспертов компании «Аравия».</p>
-            </div>
-          </div>
-
-          <div class="faq__question">
-            <p class="faq__question-title">Как будут выбирать победителей?</p>
-            <div class="faq__question-answer faq__question-answer_left">
-              <p>Эксперты будут выбирать победителей по двум критериям:</p>
-              <ul class="faq__list faq__list_parent faq__list_circle">
-                <li>положительные визуальные изменения качества кожи клиентов: уменьшение проявления «апельсиновой корки», усиление тонуса кожи, уменьшение объемов;</li>
-                <li>суммарное количество потерянных сантиметров в объемах каждого клиента (разница между суммарными замерами объемов клиента до и после процедур).</li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="faq__question">
-            <p class="faq__question-title">Как я узнаю о победе?</p>
-            <div class="faq__question-answer faq__question-answer_left">
-              <p>Мы свяжемся с победителями по электронной почте и расскажем, как получить приз. Список победителей появится на странице конкурса 9 июля.</p>
-            </div>
-          </div>
-
-          <div class="faq__question">
-            <p class="faq__question-title">Как я могу получить свой приз?</p>
-            <div class="faq__question-answer faq__question-answer_left">
-              <p>Если вы стали победителем, мы свяжемся с вами по электронной почте.</p>
-              <p>Победители конкурса предоставляют:</p>
-              <ul class="faq__list faq__list_parent faq__list_circle">
-                <li>копии страниц своего паспорта гражданина РФ (разворот с фотографией, страница с информацией о последнем месте жительства);</li>
-                <li>копию свидетельства ИНН;</li>
-                <li>иные документы по отдельному запросу.</li>
-              </ul>
-              <p>
-                Без копий документов мы не сможем вручить вам приз. Победители конкурса должны прислать необходимую информацию в течение пяти календарных дней после получения письма от организаторов по электронной почте. При нарушении сроков организатор вправе использовать приз по своему усмотрению.
+                В день розыгрыша мы публикуем таблицу с участниками и присвоенными номерами розыгрыша на странице акции. Далее в течение дня состоится прямой эфир в Instagram <a href="https://www.instagram.com/aravia_professional">@aravia_professional</a>, в котором мы объявим номера победителей.
+                Подписывайтесь и следите за новостями!
               </p>
             </div>
           </div>
 
-          <a href="#!" class="faq__question-show-all">Полные правила акции</a>
+          <!-- 9 -->
+          <div class="faq__question">
+            <p class="faq__question-title">Как я узнаю результат розыгрыша?</p>
+            <div class="faq__question-answer">
+              <p>Мы проведём три прямых эфира в официальном аккаунте <a href="https://www.instagram.com/aravia_professional">@aravia_professional</a>. Они состоятся 11, 18 и 25 декабря 2020 года.</p>
+              <p>Также <a href="#">на странице акции</a> мы опубликуем таблицу с участниками и присвоенными номерами и результатами розыгрыша. С победителями мы свяжемся через Instagram — для этого ваш аккаунт должен быть открытым.</p>
+            </div>
+          </div>
+
+          <!-- 10 -->
+          <div class="faq__question">
+            <p class="faq__question-title">Каким образом я могу увеличить шансы на победу?</p>
+            <div class="faq__question-answer">
+              <p>Совершайте больше заказов и регистрируйте их на странице розыгрыша! Количество заказов неограниченно.</p>
+            </div>
+          </div>
+
+          <!-- 11 -->
+          <div class="faq__question">
+            <p class="faq__question-title">Можно ли выиграть дважды?</p>
+            <div class="faq__question-answer">
+              <p>Да, если вы зарегистрировали разные номера заказов.</p>
+            </div>
+          </div>
+
+          <!-- 12 -->
+          <div class="faq__question">
+            <p class="faq__question-title">Как я получу подарок?</p>
+            <div class="faq__question-answer">
+              <p>
+                Мы свяжемся с вами в Instagram и запросим всю необходимую информацию. Доставка призов будет осуществляться за наш счёт. Единственное правило — вы должны проживать на территории Российской Федерации или Казахстана, поскольку доставка интернет-магазина предусмотрена только на
+                территории этих стран.
+              </p>
+            </div>
+          </div>
+
+          <a href="#!" class="text2 faq__question-show-all">Полные правила акции</a>
         </div>
       </div>
-      <img id="obj13" src="./images/faq-object_1.png" alt="Вопрос-ответ" class="leaf faq__obj1" />
-      <img src="./images/faq-bg.png" alt="Вопрос-ответ" class="faq__bg" />
     </div>
 
-    <div class="feedback">
-      <div class="feedback__container">
-        <p class="title feedback__title">Остались вопросы?</p>
-        <p class="feedback__description">Заполните форму и мы вам ответим!</p>
-        <form class="feedback__form">
-          <label class="feedback__label">
-            <span class="feedback__span">Имя</span>
-            <input type="text" placeholder="Имя*" required class="feedback__input" name="name" />
-          </label>
-          <label class="feedback__label">
-            <span class="feedback__span">Адрес электронной почты</span>
-            <input type="text" placeholder="Адрес электронной почты*" required class="feedback__input" name="email" />
-          </label>
-          <label class="feedback__label">
-            <span class="feedback__span">Сообщение</span>
-            <textarea placeholder="Сообщение" class="feedback__input feedback__textarea" name="msg"></textarea>
-          </label>
-          <label class="feedback__label feedback__label_checkbox">
-            <input id="magiaAgree" type="checkbox" required class="feedback__checkbox" />
-            <span class="feedback__checbox-fake"></span>
-            <span class="feedback__checbox-text">Я согласен(а) на обработку персональных данных</span>
-          </label>
-          <button class="btn btn_lg feedback__button" type="submit" disabled>Отправить</button>
-        </form>
-      </div>
-      <span class="circle feedback__circle"></span>
-      <img id="obj14" src="./images/feedback-object_1.png" alt="Остались вопросы?" class="leaf feedback__obj1" />
-    </div>
-
-    <script defer src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script defer src="./index.js"></script>
   </body>
 </html>
