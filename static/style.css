@@ -1421,7 +1421,6 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-width: 510px;
   position: relative;
   z-index: 10;
 }
@@ -1463,6 +1462,13 @@ html {
 
 .gifts__item-title {
   text-transform: uppercase;
+  white-space: nowrap;
+}
+
+@media (max-width: 1200px) {
+  .gifts__item-title {
+    white-space: inherit;
+  }
 }
 
 .gifts__item-description {

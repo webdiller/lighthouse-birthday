@@ -1046,7 +1046,6 @@ html {
   &__item-content {
     display: flex;
     flex-direction: column;
-    max-width: 510px;
     position: relative;
     z-index: 10;
     &_1 {
@@ -1075,6 +1074,10 @@ html {
 
   &__item-title {
     text-transform: uppercase;
+    white-space: nowrap;
+    @media (max-width: 1200px) {
+      white-space: inherit;
+    }
   }
 
   &__item-subtitle {
