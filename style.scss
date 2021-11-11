@@ -161,13 +161,13 @@ html {
   font-size: 10px;
   font-family: "Circe", "sans-serin";
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .title1 {
   font-weight: 800;
   font-size: 48px;
   line-height: 60px;
-  text-align: center;
   color: #9961d6;
   @media (max-width: 991px) {
     font-size: 36px;
@@ -234,7 +234,6 @@ html {
   font-weight: 350;
   font-size: 24px;
   line-height: 35px;
-  text-align: center;
   color: #272727;
   @media (max-width: 991px) {
     font-size: 18px;
@@ -269,10 +268,14 @@ html {
   border-radius: 25px;
   border: 0;
   outline: 0;
+  transition: all .3s ease;
   @media (max-width: 991px) {
     font-size: 18px;
     line-height: 36px;
     height: 35px;
+  }
+  &:hover, &:focus {
+    background-color: #d5c6e3;
   }
 }
 
@@ -573,6 +576,7 @@ html {
 
   &__text {
     margin-bottom: 10px;
+    text-align: center;
     @media (max-width: 991px) {
       font-size: 24px;
     }
@@ -718,6 +722,7 @@ html {
     @media (max-width: 991px) {
       display: block;
       text-align: center;
+      margin-left: 0;
     }
 
     @media (max-width: 768px) {
@@ -1041,7 +1046,7 @@ html {
   &__item-content {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 510px;
     position: relative;
     z-index: 10;
     &_1 {
@@ -1069,6 +1074,7 @@ html {
   }
 
   &__item-title {
+    text-transform: uppercase;
   }
 
   &__item-subtitle {

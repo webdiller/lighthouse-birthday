@@ -205,13 +205,13 @@ html {
   font-size: 10px;
   font-family: "Circe", "sans-serin";
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .title1 {
   font-weight: 800;
   font-size: 48px;
   line-height: 60px;
-  text-align: center;
   color: #9961d6;
 }
 
@@ -280,7 +280,6 @@ html {
   font-weight: 350;
   font-size: 24px;
   line-height: 35px;
-  text-align: center;
   color: #272727;
 }
 
@@ -327,6 +326,9 @@ html {
   border-radius: 25px;
   border: 0;
   outline: 0;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 @media (max-width: 991px) {
@@ -335,6 +337,10 @@ html {
     line-height: 36px;
     height: 35px;
   }
+}
+
+.btn:hover, .btn:focus {
+  background-color: #d5c6e3;
 }
 
 .welcome {
@@ -736,6 +742,7 @@ html {
 
 .action__text {
   margin-bottom: 10px;
+  text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -960,6 +967,7 @@ html {
   .action__link {
     display: block;
     text-align: center;
+    margin-left: 0;
   }
 }
 
@@ -1413,7 +1421,7 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-width: 500px;
+  max-width: 510px;
   position: relative;
   z-index: 10;
 }
@@ -1451,6 +1459,10 @@ html {
     margin-top: 0;
     padding: 0 25px;
   }
+}
+
+.gifts__item-title {
+  text-transform: uppercase;
 }
 
 .gifts__item-description {
