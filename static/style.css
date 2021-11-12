@@ -991,7 +991,7 @@ html {
 .dates__bg-image {
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   width: 100%;
   max-width: 946px;
   height: 100%;
@@ -1001,13 +1001,13 @@ html {
 
 @media (max-width: 1600px) {
   .dates__bg-image {
-    left: -10%;
+    right: -10%;
   }
 }
 
 @media (max-width: 1300px) {
   .dates__bg-image {
-    left: -20%;
+    right: -20%;
   }
 }
 
@@ -1178,6 +1178,10 @@ html {
     font-size: 36px;
     line-height: 1.35;
   }
+}
+
+.dates__item-description {
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.5);
 }
 
 @media (max-width: 991px) {

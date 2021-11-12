@@ -749,16 +749,16 @@ html {
   &__bg-image {
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     max-width: 946px;
     height: 100%;
     object-fit: cover;
     @media (max-width: 1600px) {
-      left: -10%;
+      right: -10%;
     }
     @media (max-width: 1300px) {
-      left: -20%;
+      right: -20%;
     }
     @media (max-width: 1200px) {
       display: none;
@@ -887,6 +887,7 @@ html {
   }
 
   &__item-description {
+    text-shadow: 1px 1px rgba(255, 255, 255, .5);
     @media (max-width: 991px) {
       text-align: left;
     }
